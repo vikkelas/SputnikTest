@@ -1,9 +1,10 @@
 import React from "react";
+import style from './Footer.module.sass';
 
 const Footer = () => {
   return (
-    <footer>
-      footer
+    <footer className={style.footer}>
+      2024
     </footer>
   );
 };

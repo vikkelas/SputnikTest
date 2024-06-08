@@ -1,0 +1,30 @@
+.product
+  display: flex
+  flex-direction: column
+  gap: 50px
+  h2
+    font-size: 28px
+    font-weight: 600
+    text-align: center
+
+.productList
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  gap: 20px
+
+.productCard
+  position: relative
+  &Promotion
+    color: red
+    position: absolute
+    top: 0
+    left: -10px
+    font-size: 18px
+    font-weight: 500
+    z-index: 2
+    transform: rotateZ(-45deg)
+  &Params
+    display: grid
+    grid-template-rows: 2fr 1fr
+    height: 200px
+
